@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Content</title>
+</head>
+<body>
+     <ul>
+
+        <li>Session: {{ invoice.session }}</li>
+        <li>Term: {{ invoice.term }}</li>
+        <li>Class: {{ invoice.class_for }}</li>
+        <li>Total Amount Payable: {{invoice.total_amount_payable}}
+        </li>
+        <li>Total Amount Paid: {{ invoice.total_amount_paid}}</li>
+        <li><strong>Balance: {{invoice.balance}}</strong></li>
+      </ul>
+</body>
+</html>
